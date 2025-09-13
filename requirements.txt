@@ -1,2 +1,6 @@
+# Additional system packages for Hugging Face Spaces
+# This file is optional but can help with compatibility
+
 streamlit
+
 requests
