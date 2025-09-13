@@ -629,7 +629,7 @@ def get_translation(text: str) -> str:
 # --- Page Configuration ---
 st.set_page_config(
     page_title="Tiny Machine Translation",
-    page_icon="🎮",
+    page_icon="https://www.flaticon.com/free-icon/ai_2814666?term=robot&page=1&position=8&origin=tag&related_id=2814666",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -788,5 +788,6 @@ else:
         </p>
     </div>
     """, unsafe_allow_html=True)
+
 
 
