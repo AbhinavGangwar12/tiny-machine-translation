@@ -37,7 +37,7 @@ REPO_NAME = "users"  # Replace with your repository name
 #### For Local Development:
 Create a `.env` file in your project root:
 ```
-GITHUB_TOKEN=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
+GITHUB_TOKEN=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
 ```
 
 ### Step 4: Create the Log File
@@ -84,3 +84,4 @@ GITHUB_TOKEN=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
 2024-01-15 14:32:10 - JaneSmith
 2024-01-15 14:35:45 - BobWilson
 ```
+
