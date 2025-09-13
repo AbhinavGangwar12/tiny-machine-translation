@@ -629,7 +629,7 @@ def get_translation(text: str) -> str:
 # --- Page Configuration ---
 st.set_page_config(
     page_title="Tiny Machine Translation",
-    page_icon="https://www.flaticon.com/free-icon/ai_2814666?term=robot&page=1&position=8&origin=tag&related_id=2814666",
+    page_icon="assets/images/ai.png",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -653,7 +653,7 @@ if not st.session_state.logged_in:
 
     with col1:
         st.markdown('<div class="login-image-container">', unsafe_allow_html=True)
-        image_dir = 'assets/images'
+        image_dir = 'assets/images/rob.jpg'
         if os.path.exists(image_dir) and os.listdir(image_dir):
             random_image = random.choice([os.path.join(image_dir, f) for f in os.listdir(image_dir)])
             st.image(random_image, use_container_width=True, caption="Melody")
@@ -788,6 +788,7 @@ else:
         </p>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
